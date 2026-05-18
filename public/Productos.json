@@ -1,0 +1,62 @@
+[
+  {
+    "Nombre": "Leche Entera",
+    "Descripcion": "Leche entera larga vida enriquecida con vitaminas A y D.",
+    "Categoria": "Lácteos",
+    "Precio": 1850.50,
+    "Origen": "Argentina",
+    "Peso": "1 L",
+    "Cantidad": 24,
+    "Imagen": "https://example.com/imagenes/leche-entera.jpg"
+  },
+  {
+    "Nombre": "Arroz Largo Fino",
+    "Descripcion": "Arroz largo fino de grano seleccionado.",
+    "Categoria": "Almacén",
+    "Precio": 2200.00,
+    "Origen": "Argentina",
+    "Peso": "1 Kg",
+    "Cantidad": 40,
+    "Imagen": "https://example.com/imagenes/arroz-largo-fino.jpg"
+  },
+  {
+    "Nombre": "Aceite de Girasol",
+    "Descripcion": "Aceite refinado de girasol ideal para cocinar.",
+    "Categoria": "Aceites",
+    "Precio": 3999.99,
+    "Origen": "Argentina",
+    "Peso": "900 ml",
+    "Cantidad": 18,
+    "Imagen": "https://example.com/imagenes/aceite-girasol.jpg"
+  },
+  {
+    "Nombre": "Pan Integral",
+    "Descripcion": "Pan integral en rebanadas con semillas.",
+    "Categoria": "Panadería",
+    "Precio": 2750.75,
+    "Origen": "Argentina",
+    "Peso": "500 g",
+    "Cantidad": 15,
+    "Imagen": "https://example.com/imagenes/pan-integral.jpg"
+  },
+  {
+    "Nombre": "Gaseosa Cola",
+    "Descripcion": "Bebida gaseosa sabor cola.",
+    "Categoria": "Bebidas",
+    "Precio": 3100.00,
+    "Origen": "Argentina",
+    "Peso": "2.25 L",
+    "Cantidad": 30,
+    "Imagen": "https://example.com/imagenes/gaseosa-cola.jpg"
+  },
+  {
+    "Nombre": "Manzanas Rojas",
+    "Descripcion": "Manzanas rojas frescas seleccionadas.",
+    "Categoria": "Frutas y Verduras",
+    "Precio": 1800.00,
+    "Origen": "Chile",
+    "Peso": "1 Kg",
+    "Cantidad": 50,
+    "Imagen": "https://example.com/imagenes/manzanas-rojas.jpg"
+  }
+]

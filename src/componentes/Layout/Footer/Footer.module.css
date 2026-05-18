@@ -5,3 +5,10 @@ footer{
     color: #2ea043;
     text-decoration: dashed;
 }
+
+p {
+    margin: 0;
+    font-size: 14px;
+    font-size: 10px;
+    color: antiquewhite;
+}

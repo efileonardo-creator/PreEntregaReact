@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
         <Layout>
-            <h1>Mi Aplicación</h1>
+            <h1>Mi PreEntrega de proyecto</h1>
         </Layout>
     </div>
     
