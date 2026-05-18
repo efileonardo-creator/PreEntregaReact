@@ -1,0 +1,11 @@
+Usa un negro azulado para que no sea tan "pesado" visualmente.
+
+Fondo (Negro profundo): #0d1117
+
+Color Primario (Azul Eléctrico): #2f81f7
+
+Acento (Verde Esmeralda): #2ea043
+
+Texto Principal: #f0f6fc
+
+Bordes/Secundario: #30363d
