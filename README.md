@@ -1,3 +1,6 @@
+Este proyecto fue creado para la entrega del trabaja preintegrador del curso de Talento Tech 2026 curso 26121.
+Nombre del alumno: Leonardo Keienburg
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
