@@ -1,7 +1,7 @@
 
 import './App.css'
 import { Layout } from './componentes/Layout/Layout';
-
+import { ItemListContainer } from './componentes/ItemListContainer';
 
 function App() {
 
@@ -9,7 +9,8 @@ function App() {
   return (
     <div>
         <Layout>
-            <h1>Mi PreEntrega de proyecto</h1>
+            <h1>Bienvenido a mi tienda Online</h1>
+            <ItemListContainer Mensaje="Productos que puedes elegir" />
         </Layout>
     </div>
     
