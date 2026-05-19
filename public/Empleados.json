@@ -1,0 +1,19 @@
+[
+  {
+    "Nombre": "Tito 1",
+    "Telefono": "0123456789",
+    "Mail": "tito@Argentina.com",
+    "Cargo": "RRHH"
+  },
+  {
+    "Nombre": "Beto 2",
+    "Telefono": "0123456789",
+    "Mail": "beto@Argentina.com",
+    "Cargo": "Gerente Gral."
+  },  {
+    "Nombre": "Anita 3",
+    "Telefono": "0123456789",
+    "Mail": "anita@Argentina.com",
+    "Cargo": "Ceo"
+  }
+]

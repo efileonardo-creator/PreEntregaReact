@@ -1,4 +1,5 @@
 import { ItemList } from './ItemList';
+import styles from './ItemListContainer.module.css';
 export function ItemListContainer({ Mensaje }) {
 
     const productos = [
@@ -6,11 +7,12 @@ export function ItemListContainer({ Mensaje }) {
         { id: '2344', nombre: 'Monitor Curvo', precio: 450000, stock: 25 },
         { id: '2545', nombre: 'Teclado Mecánico', precio: 15000, stock: 50 },];
     return (
-        <div>
-            <h2>{Mensaje}</h2>
-        <div>
-            <ItemList productos={productos} />
+        <>
+            <div className={styles.subtitulo}>
+                <h2>{Mensaje}</h2>
             </div>
-        </div>
-    )
-;}
+            <div className={styles.productos}>
+                <ItemList productos={productos} />
+            </div>
+        </>
+    );}
