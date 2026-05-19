@@ -1,7 +1,8 @@
 .item {
     border: 1px solid #ccc;
-    height: 100px;
+    height: auto;
     padding: 10px;
     margin: 10px;
+    gap: 20px;
     
 }

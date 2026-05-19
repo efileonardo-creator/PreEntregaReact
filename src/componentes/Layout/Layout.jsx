@@ -1,5 +1,6 @@
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
+import { Contador } from "../Boton/Boton";
 
 export function Layout({ children }) {
     return (
@@ -8,6 +9,7 @@ export function Layout({ children }) {
             <main>
                 {children}
             </main>
+            <Contador />    
             <Footer />
         </div>
     );

@@ -1,10 +1,10 @@
 import './Footer.module.css';
-import { InformacionEmpresa } from './Contacto/InfomarcionEmpresa';
+import { ContactoListContainer } from './Contacto/ContactoListContainer';
 
 function Footer() {
 return (
     <footer>
-        <InformacionEmpresa />
+        <ContactoListContainer />
         <p>&copy; 2025 - Mi Aplicación React</p>
     </footer>
 );

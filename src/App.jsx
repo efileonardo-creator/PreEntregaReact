@@ -1,7 +1,7 @@
 
 import './App.css'
 import { Layout } from './componentes/Layout/Layout';
-import { ItemListContainer } from './componentes/ItemListContainer';
+import { ItemListContainer } from './componentes/Item/ItemListContainer';
 
 function App() {
 
