@@ -6,18 +6,18 @@ Requerimiento #1: Estructura y Layout
 un Header.jsx, un nav y un Footer.jsx, con una apariencia 
 consistente y  funcional;
 
-3) El footer tiene que tener información de la empresa 
+(3) El footer tiene que tener información de la empresa 
 y las tarjetas de al menos 3 personas.
 
 Requerimiento #2: Catálogo de productos con datos de una API
 
-4) La aplicación debe tener un componente 
+(4) La aplicación debe tener un componente 
 como ItemListContainer.jsx (o una página que 
 cumpla esa función) que cargue la información de productos 
 desde un archivo productos.json local usando useEffect 
 y fetch.
 
-5) Los productos deben renderizarse utilizando un componente 
+(5) Los productos deben renderizarse utilizando un componente 
 reutilizable Item.jsx, que reciba los datos por props.
 
 Requerimiento #3: Sistema de ruteo
