@@ -22,7 +22,7 @@ reutilizable Item.jsx, que reciba los datos por props.
 
 Requerimiento #3: Sistema de ruteo
 
-6) La navegación debe ser gestionada por react-router-dom.
+(6) La navegación debe ser gestionada por react-router-dom.
 Deben existir, como mínimo, las siguientes rutas:
 /: Vista principal o de bienvenida.
 /productos:
