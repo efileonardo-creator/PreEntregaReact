@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ItemList } from './ItemList';
 import styles from './ItemListContainer.module.css';
 

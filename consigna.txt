@@ -29,5 +29,5 @@ Deben existir, como mínimo, las siguientes rutas:
 /producto/:id: Vista de detalle de un único producto
 /carrito: Vista del carrito de compras.
 
-7) El NavBar debe utilizar el componente <Link> para 
+(7) El NavBar debe utilizar el componente <Link> para 
 una navegación fluida sin recargas de página.

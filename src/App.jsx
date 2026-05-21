@@ -1,26 +1,24 @@
 
-import './App.css'
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './componentes/Layout/Layout';
 import { ItemListContainer } from './componentes/Item/ItemListContainer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ProductosId } from './componentes/ProductosId/ProductosId';
+import { Carrito } from './componentes/Carrito/Carrito';
 
 function App() {
-
-
   return (
-
-    <Routes>{/*envuelve a las demás para mostrar Header y Footer siempre */}
+    <BrowserRouter>
+      <Routes>
         <Route element={<Layout />}>
-        <Route path="/" element={<h1>Bienvenido a mi tienda Online</h1>} />
-        <Route path="/productos" element={<ItemListContainer Mensaje={"Productos destacados"}/>} />
-//falta crear el componente producto-- id
-
-//falta crear el carrito
-
+          <Route path="/" element={<h1>Bienvenido a mi tienda Online</h1>} />
+          <Route path="/productos" element={<ItemListContainer Mensaje={"Productos destacados"} />} />
+          <Route path="/producto/:id" element={<ProductosId />} />
+          <Route path="/carrito" element={<Carrito />} />
         </Route>
-    </Routes>
-    );
-
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App

@@ -3,7 +3,7 @@ import Footer from "./Footer/Footer";
 import { Contador } from "../Boton/Boton";
 import { Outlet } from 'react-router-dom'; // Importamos Outlet
 
-export function Layout({ children }) {
+export function Layout() {
     return (
         <div>
             <Header />
