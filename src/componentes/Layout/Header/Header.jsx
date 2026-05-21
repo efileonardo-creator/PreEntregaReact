@@ -10,7 +10,7 @@ return (
             {/* 2. Usamos Link en lugar de <a> y 'to' en lugar de 'href' */}
                 <li><Link to="/">Inicio</Link></li>
                 <li><Link to="/productos">Productos</Link></li>
-                <li><Link to="/producto/:id">Producto ID</Link></li>
+                <li><Link to="/producto/1">Detalle Producto</Link></li>
                 <li><Link to="/carrito">Carrito</Link></li>
             </ul>
         </nav>
